@@ -4,7 +4,7 @@
 //
 //  Created by Виктория Струсь on 20.06.2025.
 //
-
+gyygg
 import UIKit
 
 @main
