@@ -5,7 +5,7 @@
 //  Created by Виктория Струсь on 20.06.2025.
 //
 import UIKit
-hh
+hhggf
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
