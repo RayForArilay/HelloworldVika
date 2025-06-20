@@ -22,17 +22,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="500" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CML-uY-bKV">
-                                <rect key="frame" x="103.33333333333333" y="711" width="186.66666666666669" height="59"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" pointerInteraction="YES" id="CML-uY-bKV">
+                                <rect key="frame" x="89.666666666666671" y="723.33333333333337" width="198.66666666666663" height="56.666666666666629"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <rect key="contentStretch" x="0.14999999999999999" y="0.0" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="ae9-Ek-ATS"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show Text">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="37"/>
+                                    <fontDescription key="titleFontDescription" name="ArialMT" family="Arial" pointSize="38"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="makeButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nc0-xK-fHE"/>
@@ -42,8 +42,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CML-uY-bKV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8IY-Sa-pKX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CML-uY-bKV" secondAttribute="bottom" constant="48" id="LlC-dX-O5q"/>
+                            <constraint firstItem="CML-uY-bKV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-7.5" id="8IY-Sa-pKX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CML-uY-bKV" secondAttribute="bottom" constant="38" id="LlC-dX-O5q"/>
                             <constraint firstItem="VzV-vp-wQd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="brc-Md-XuW"/>
                             <constraint firstItem="VzV-vp-wQd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="89" id="upv-mk-LEv"/>
                         </constraints>
@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121" y="-34"/>
+            <point key="canvasLocation" x="119.84732824427481" y="-34.507042253521128"/>
         </scene>
     </scenes>
     <resources>
